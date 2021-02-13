@@ -39,6 +39,8 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 ![BitBucket](https://img.shields.io/badge/-BitBucket-darkblue?style=flat-square&logo=bitbucket)
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=Raspberry-Pi)
 ![PHP](https://img.shields.io/badge/-PHP-black?style=flat-square&logo=PHP&logoColor=blue)
+![Apache](https://img.shields.io/badge/-apache-red?style=flat-square&logo=apache)
+![Composer](https://img.shields.io/badge/-composer-gray?style=flat-square&logo=composer&logoColor=brown)
 ![JQuery](https://img.shields.io/badge/-Jquery-white?style=flat-square&logo=jquery&logoColor=blue)
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=josecarlosweb&count_private=true&show_icons=true&include_all_commits=true)
