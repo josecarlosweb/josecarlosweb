@@ -12,6 +12,7 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 ![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
+![Vue](https://img.shields.io/badge/-Vue-black?style=flat-square&logo=vuejs)
 ![Java](https://img.shields.io/badge/-java-red?style=flat-square&logo=java)
 ![Kotlin](https://img.shields.io/badge/-kotlin-blue?style=flat-square&logo=kotlin)
 ![Spring_Boot](https://img.shields.io/badge/-SpringBoot-green?style=flat-square&logo=spring)
