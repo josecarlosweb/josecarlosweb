@@ -4,7 +4,7 @@ const lastSong = new NodeCache();
 const LAST_SONG_KEY = "lastSongKey";
 
 const defaultLastSong = {
-  uri: "4JLk3WmaRmMmYe4HQBoz6H",
+  uri: "https://open.spotify.com/track/4JLk3WmaRmMmYe4HQBoz6H",
   cover: "https://i.scdn.co/image/ab67616d0000b273ec50ecfef2585f58c789b933"
 }
 
