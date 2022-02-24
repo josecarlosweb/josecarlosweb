@@ -44,7 +44,7 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 ![Apache](https://img.shields.io/badge/-apache-red?style=flat-square&logo=apache)
 ![Composer](https://img.shields.io/badge/-composer-gray?style=flat-square&logo=composer&logoColor=brown)
 ![JQuery](https://img.shields.io/badge/-Jquery-white?style=flat-square&logo=jquery&logoColor=blue)
-![Go](https://img.shields.io/badge/-Go-white?style=flat-square&logo=go&logoColor=blue)
+![Go](https://img.shields.io/badge/-Go-white?style=flat-square&logo=go)
 
 
 ## 🔥 Streak stats
