@@ -10,11 +10,12 @@ const defaultLastSong = {
 
 export const getLastSong = () => {
   const lastSongByCache = lastSong.get(LAST_SONG_KEY);
-  return (!lastSongByCache || lastSongByCache === undefined) ? defaultLastSong : lastSongByCache;
+  return (lastSongByCache == undefined) ? defaultLastSong : lastSongByCache;
 };
 
 export const setLastSong = ({uri, cover} = defaultLastSong) => {
   console.log("Saving new song on cache")
   const newSong = {uri, cover};
+  console.log("New song is", JSON.stringify(newSong));
   lastSong.set(LAST_SONG_KEY, newSong);
 }
