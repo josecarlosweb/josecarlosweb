@@ -55,4 +55,12 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=josecarlosweb&theme=darcula&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 
+## 🎵 Spotify status
+
+<a href="https://my-spotify-activity.herokuapp.com/url">
+  <img src="https://my-spotify-activity.herokuapp.com/cover" width="341" height="571" alt="Now Playing">
+</a>
+
+
+
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=josecarlosweb.visitors)
