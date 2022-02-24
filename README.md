@@ -46,7 +46,7 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 ![JQuery](https://img.shields.io/badge/-Jquery-white?style=flat-square&logo=jquery&logoColor=blue)
 ![Go](https://img.shields.io/badge/-Go-white?style=flat-square&logo=go&logoColor=blue)
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=josecarlosweb&count_private=true&show_icons=true&include_all_commits=true)
+![Github Stats](https://github-readme-stats.vercel.app/api?username=josecarlosweb&count_private=true&show_icons=true&include_all_commits=true&theme=dracula)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=josecarlosweb&hide=TeX&layout=compact)
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=josecarlosweb.visitors)
