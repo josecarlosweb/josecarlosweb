@@ -5,7 +5,7 @@ const LAST_SONG_KEY = "lastSongKey";
 
 const defaultLastSong = {
   uri: "https://open.spotify.com/track/4JLk3WmaRmMmYe4HQBoz6H",
-  cover: "https://i.scdn.co/image/ab67616d0000b273ec50ecfef2585f58c789b933"
+  cover: "cover.png"
 }
 
 export const getLastSong = () => {
