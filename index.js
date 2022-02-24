@@ -8,7 +8,7 @@ const app = express();
 app.get('/url', (req, res) => res.send(getLastSong().uri));
 app.get('/cover', (req, res) => res.redirect(getLastSong().cover));
 
-app.listen(8080, () => {
+app.listen(process.env.APP_PORT || 8080, () => {
   getActualSongJob.invoke();
   console.log("App listening");
 })
