@@ -5,7 +5,7 @@ import { getLastSong } from './cache/index.js';
 const app = express();
 
 app.get('/url', (req, res) => res.redirect(getLastSong().uri));
-app.get('/cover', (req, res) => res.sendFile('./cover.png'));
+app.get('/cover', (req, res) => res.sendFile('cover.png', { root: __dirname }));
 
 app.listen(process.env.PORT || 3000, () => {
   getActualSongJob.invoke();
