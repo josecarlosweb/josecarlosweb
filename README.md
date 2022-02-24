@@ -57,10 +57,7 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 
 ## 🎵 Spotify status
 
-<a target="_blank" href="https://my-spotify-activity.herokuapp.com/url">
-  <img src="https://my-spotify-activity.herokuapp.com/cover" alt="Now Playing">
-</a>
-
+[![name](https://my-spotify-activity.herokuapp.com/cover)](https://my-spotify-activity.herokuapp.com/url)
 
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=josecarlosweb.visitors)
