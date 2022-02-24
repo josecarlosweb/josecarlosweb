@@ -55,7 +55,4 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=josecarlosweb&theme=darcula&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 
-## Song
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7zcmIz44ipSUMprZKvEeRO?utm_source=generator&theme=0" width="50%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=josecarlosweb.visitors)
