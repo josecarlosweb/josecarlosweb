@@ -48,7 +48,7 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 
 ## 🔥 Streak stats
 
-![Github Stats](https://github-readme-stats.vercel.app/api?username=josecarlosweb&count_private=true&show_icons=true&include_all_commits=true&theme=dracula)
+![Github Stats](https://github-readme-stats.vercel.app/api?username=josecarlosweb&count_private=true&show_icons=false&include_all_commits=true&theme=dracula&langs_count=10&hide_rank=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=josecarlosweb&hide=TeX&layout=compact)
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=josecarlosweb&theme=darcula&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
