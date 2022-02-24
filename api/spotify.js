@@ -5,7 +5,7 @@ import schedule from 'node-schedule';
 import { setLastSong } from '../cache/index.js';
 
 const storeImage = (originUri) => axios({
-  originUri,
+  url: originUri,
   responseType: 'stream',
 }).then(
   response =>
