@@ -1,24 +1,21 @@
-import http from 'http';
-import { Transform } from 'stream';
 import fs from 'fs';
-
+import axios from 'axios';
 import { get } from '../api/adapters/index.js';
 import schedule from 'node-schedule';
 import { setLastSong } from '../cache/index.js';
 
-const storeImage = (originUri) => {
-  http.request(originUri, (response) => {                                        
-    var data = new Stream();                                                    
-  
-    response.on('data', (chunk) => {                                       
-      data.push(chunk);                                                         
-    });                                                                         
-  
-    response.on('end', () => {                                             
-      fs.writeFileSync('cover.png', data.read());                               
-    });                                                                         
-  }).end();
-} 
+const storeImage = (originUri) => axios({
+  originUri,
+  responseType: 'stream',
+}).then(
+  response =>
+    new Promise((resolve, reject) => {
+      response.data
+        .pipe(fs.createWriteStream('cover.png'))
+        .on('finish', () => resolve())
+        .on('error', e => reject(e));
+    }),
+);
 
 const collectMetadata = (responseData) => {
   const uri = responseData.item.uri.split(/[:]+/).pop();
