@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { getAccessToken } from '../../cache/index.js';
 import { refreshActualToken } from '../auth/refreshTokenHandler.js';
 
 const getDefaultHeaders = (contentType) => ({
@@ -33,7 +34,7 @@ export const getAxiosInstance = (
 ) => {
   let headers = getDefaultHeaders(contentType);
   if(process.env.BEARER_TOKEN){
-    headers["Authorization"] = process.env.BEARER_TOKEN;
+    headers["Authorization"] = getAccessToken();
   }
   const axiosInstance = axios.create({
     headers,
