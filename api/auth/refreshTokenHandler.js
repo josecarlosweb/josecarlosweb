@@ -13,7 +13,7 @@ const authRequestOptions = {
 };
 
 export const refreshActualToken = () => {
-  axios.post(
+  return axios.post(
       "https://accounts.spotify.com/api/token",
       new URLSearchParams({
         grant_type: "refresh_token",
