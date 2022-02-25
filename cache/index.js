@@ -6,7 +6,8 @@ const ACCESS_TOKEN_KEY = "accessTokenKey";
 
 const defaultLastSong = {
   uri: "https://open.spotify.com/track/4JLk3WmaRmMmYe4HQBoz6H",
-  cover: "cover.png"
+  cover: "cover.png",
+  embed: "4JLk3WmaRmMmYe4HQBoz6H"
 }
 
 export const getLastSong = () => {
@@ -14,9 +15,9 @@ export const getLastSong = () => {
   return (lastSongByCache == undefined) ? defaultLastSong : lastSongByCache;
 };
 
-export const setLastSong = ({uri, cover} = defaultLastSong) => {
+export const setLastSong = ({uri, cover, embed} = defaultLastSong) => {
   console.log("Saving new song on cache")
-  const newSong = {uri, cover};
+  const newSong = {uri, cover, embed};
   console.log("New song is", JSON.stringify(newSong));
   cache.set(LAST_SONG_KEY, newSong);
 }

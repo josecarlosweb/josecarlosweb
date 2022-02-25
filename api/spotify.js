@@ -26,7 +26,8 @@ const collectMetadata = (responseData) => {
 
   return {
     uri: `https://open.spotify.com/track/${uri}`,
-    cover: 'cover.png'
+    cover: 'cover.png',
+    embed: uri
   }
 } 
 
@@ -34,7 +35,7 @@ const getSong = () => get({url: "/"})
   .then(response => {
     const metadata = collectMetadata(response);
     if(metadata.uri && metadata.cover){
-      setLastSong({uri: metadata.uri, cover: metadata.cover});
+      setLastSong({uri: metadata.uri, cover: metadata.cover, embed: metadata.uri});
     }
   })
   .catch(err => console.log("Error on try to get the actual song", err.message));
