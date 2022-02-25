@@ -59,5 +59,6 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 
 [![Spotify](https://my-spotify-activity.herokuapp.com/cover?)](https://my-spotify-activity.herokuapp.com/url)
 
+Do you wanna know how this status works? [Clik here to learn](SPOTIFY_STATUS.md)
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=josecarlosweb.visitors)
