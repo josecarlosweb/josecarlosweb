@@ -21,7 +21,9 @@ export const refreshActualToken = () => {
       }),
       authRequestOptions
     )
-    .then((response) => setAccessToken(response.access_token))
+    .then((response) => {
+      setAccessToken(response.data.access_token)
+    })
     .catch((err) =>
       console.log("Error on try to get a new token", err.message)
     );
