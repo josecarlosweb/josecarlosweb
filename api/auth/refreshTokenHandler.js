@@ -1,5 +1,5 @@
 import axios from "axios";
-import { setAccessToken } from "../../cache";
+import { setAccessToken } from "../../cache/index.js";
 
 const refreshToken = process.env.REFRESH_TOKEN || "";
 const clientId = process.env.CLIENT_ID || "";
