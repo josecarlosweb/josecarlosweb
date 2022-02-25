@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { refreshActualToken } from '../auth/refreshTokenHandler';
 
 const getDefaultHeaders = (contentType) => ({
   "Content-Type": contentType,
@@ -20,7 +21,8 @@ const remoteTagInterceptor = (response) => {
 const unauthorizedInteceptor = (error) => {
   const res = error.response;
   if (res.status === 401) {
-    console.log("OOps! you forgot the BEARER_TOKEN")
+    console.log("Oops, token is invalid, refreshing and try again in another run");
+    refreshActualToken();
   }
   console.error(`Looks like there was a problem. Status Code:  ${res.status}`);
   return Promise.reject(error);
