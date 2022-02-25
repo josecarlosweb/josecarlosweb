@@ -18,16 +18,16 @@ const storeImage = (originUri) => axios({
 );
 
 const collectMetadata = (responseData) => {
-  const uri = responseData.item.uri.split(/[:]+/).pop();
-  console.log('uri', uri);
+  const rawUri = responseData.item.uri.split(/[:]+/).pop();
+  console.log('uri', rawUri);
   const cover = responseData.item.album.images.find(element => element.width >= 600).url;
   console.log('cover', cover);
   storeImage(cover);
 
   return {
-    uri: `https://open.spotify.com/track/${uri}`,
+    uri: `https://open.spotify.com/track/${rawUri}`,
     cover: 'cover.png',
-    embed: uri
+    embed: rawUri
   }
 } 
 
