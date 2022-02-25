@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { refreshActualToken } from '../auth/refreshTokenHandler';
+import { refreshActualToken } from '../auth/refreshTokenHandler.js';
 
 const getDefaultHeaders = (contentType) => ({
   "Content-Type": contentType,
