@@ -53,12 +53,3 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=josecarlosweb&hide=TeX&layout=compact)
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=josecarlosweb&theme=darcula&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
-
-## 🎵 Spotify status
-
-[![Spotify](https://my-spotify-activity.herokuapp.com/cover?)](https://my-spotify-activity.herokuapp.com/url)
-
-Do you wanna know how this status works? [Clik here to learn](SPOTIFY_STATUS.md)
-
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=josecarlosweb.visitors)
