@@ -4,7 +4,6 @@ I am Carlos Carvalho, people call me Carlos. I'm working with information techno
 
 [![Linkedin Badge](https://img.shields.io/twitter/url?color=blue&label=ccarvalhocom&logo=Linkedin&logoColor=white&style=flat-square&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fccarvalhocom%2F)](https://www.linkedin.com/in/ccarvalhocom/)
 [![Gmail Badge](https://img.shields.io/badge/-jcarloss.carvalho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jcarloss.carvalho@gmail.com)](mailto:jcarloss.carvalho@gmail.com)
-[![Twitter_Badge](https://img.shields.io/twitter/url?label=ccarvalhocom&style=social&url=https%3A%2F%2Ftwitter.com%2Fccarvalhocom)](https://twitter.com/ccarvalhocom)
 
 ## ⚡ Technologies
 
